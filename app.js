@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended : false }))
 //*** SETTING UP PASSPORT AND EXPRESS SESSION ***
 
 app.use(require('express-session')({
-  secret:'I like to fuck bitches, man!',
+  secret:'Ya tozhe tebya lyublyu',
   resave: false,
   saveUnitialized: false
 }));
